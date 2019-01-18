@@ -5,23 +5,18 @@ body{
 } 
 
 h1 {
-    top: -11px;
-    left: 30px;
     position: absolute;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-size: 18px;
-    height: 60px;
-    width: 152px;
-    text-align: center;
+    top:-20px;
+    background-color: #00FF00;
+    padding: 15px;
 }
 
-
-
 nav {
-    float:right;
-    padding-top: 20px;
+    float: right;
+    padding-left: 29px;
     color: #cccccc;
+    padding-top: 29px;
+    padding-bottom: 29px;
 }
 
 nav ul {    
@@ -40,16 +35,19 @@ nav li {
       margin:0;
 }
 
-header {
+/* header {
     background-color: yellow;
     border: #cccccc;
     height: 60px;
     position: relative; 
-}
+} */
 
 img {    
     height: 200px;
     width: 200px;
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 7px;
 }
 
 footer {
@@ -84,14 +82,8 @@ a:link {
     color: #0000FF;
   }
 
-  section {
-      width: 600px;
-      height: 660px;
-      display: block;
-  }
   .mainContainer{
     background-color: #FF0000;
-    height: 960px;
     width: 960px;
     margin: auto;
     width: 50%;
@@ -99,6 +91,25 @@ a:link {
     padding: 10px;
   }
 
+#headerMainContainer{
+  background-color: blue;
+  width: 960px;
+  height: 80px;
+  margin: auto;
+  width: 51%;
+  border: 3px solid white;
+  position: relative;
+}
+#aboutMeContainer{
+  background-color: beige;
+  border-bottom: 2px solid black;
+}
 
-
+#sectionContainer{
+  margin: 3px;
+}
   
+.separator{
+  border-left: 2px solid black;
+  padding: 4px;
+}
