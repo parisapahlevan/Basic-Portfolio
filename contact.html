@@ -6,44 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Paris Pahlevan</title>
 </head>
-<header>
-        <header>
-                <div id="headerMainContainer">
-                    <h1>Paris Pahlevan</h1>
-                    <nav>
-                        <ul>
-                            <li><div><a href="index.html">About</a></div></li>
-                            <li><div class="separator" ><a href="portfolio.html">Portfolio</a></div></li>
-                            <li><div class="separator" ><a href="contact.html">Contact</a>    </div></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
-</header>
 
 <body>
-
-    <form>
-            <div class="mainContainer">
-            <div id="sectionContainer">
-            <div class="mainContact">
-            <label for="name1">Name</label>
-            <input name="name1" id="name1" type="text" placeholder="John Smith" required>
+    <header>
+        <div id="headerMainContainer">
+            <p id="myName">Paris Pahlevan</p>
+            <nav>
+                <ul>
+                    <li>
+                        <div><a href="index.html">About</a></div>
+                    </li>
+                    <li>
+                        <div class="separator"><a href="portfolio.html">Portfolio</a></div>
+                    </li>
+                    <li>
+                        <div class="separator"><a href="contact.html">Contact</a> </div>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div>
-            <label for="email">Email</label>
-            <input name="email" id="email" type="text" placeholder="Example@gmail.com" required>
+    </header>
+    <div class="mainContainer">
+        <div id="aboutMeContainer">
+            <p id="aboutMeTitle">Contact</p>
         </div>
-        <div>
-            <label for="message">Message</label>
-            <input name="message" id="message" type="text" placeholder="...">
+        <div class="formContainer">
+            <form>
+                <div>
+                    <div id="sectionContainer">
+                        <div class="formSection">
+                            <label for="name1">Name</label>
+                            <br/>
+                            <input class="formInputField" name="name1" id="name1" type="text" placeholder="John Smith" required>
+                        </div>
+                        <div class="formSection">
+                            <label for="email">Email</label>
+                            <br/>
+                            <input class="formInputField"  name="email" id="email" type="text" placeholder="Example@gmail.com" required>
+                        </div>
+                        <div class="formSection">
+                            <label for="message">Message</label>
+                            <br/>
+                            <textarea rows="4" cols="50" class="formInputField messageField" name="message"></textarea>
+                        </div>
+                    </div>
+                    <div class="formSection">
+                        <input  class="submitButton" type="submit">
+                    </div>
+                </div>
+            </form>
         </div>
-        </div>
-        <input type="submit">
-        </div>
-    </form>
+    </div>
 </body>
 <footer>Paris Pahlevan</footer>
 
