@@ -9,23 +9,26 @@
     <title>Contact</title>
 </head>
 <header>
-    <div class="container">
-        <h1>Paris Pahlevan</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-        </nav>
-    </div>
+        <header>
+                <div id="headerMainContainer">
+                    <h1>Paris Pahlevan</h1>
+                    <nav>
+                        <ul>
+                            <li><div><a href="index.html">About</a></div></li>
+                            <li><div class="separator" ><a href="portfolio.html">Portfolio</a></div></li>
+                            <li><div class="separator" ><a href="contact.html">Contact</a>    </div></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 </header>
 
 <body>
 
     <form>
-        <div>
+            <div class="mainContainer">
+            <div id="sectionContainer">
+            <div class="mainContact">
             <label for="name1">Name</label>
             <input name="name1" id="name1" type="text" placeholder="John Smith" required>
         </div>
@@ -37,7 +40,9 @@
             <label for="message">Message</label>
             <input name="message" id="message" type="text" placeholder="...">
         </div>
+        </div>
         <input type="submit">
+        </div>
     </form>
 </body>
 <footer>Paris Pahlevan</footer>
